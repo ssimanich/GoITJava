@@ -1,2 +1,2 @@
-package M3.flowers;
+package com.ss.M3.flowers;
 public abstract class Flower {}

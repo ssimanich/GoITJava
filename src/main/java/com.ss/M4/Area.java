@@ -1,4 +1,4 @@
-package M4;
+package com.ss.M4;
 
 class Area {
     public double TriangleArea(double sideOfTheTriangle, double theHeightOfTheTriangle) {
