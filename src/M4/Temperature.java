@@ -1,4 +1,4 @@
-package com.ss.M4;
+package M4;
 public class Temperature {
     public double CelsiusToFahrenheit(double Celsius){
         return ((9*Celsius)/5)+32;  }

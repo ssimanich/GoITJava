@@ -1,4 +1,4 @@
-package com.ss.M3.music;
+package M3.music;
 
 public class A_music_shop {
     Musical_instrument Guitar;

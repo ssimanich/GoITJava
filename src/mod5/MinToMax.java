@@ -1,4 +1,4 @@
-package com.ss.mod5;
+package mod5;
 
 public class MinToMax {
     public int massMin(int[] mass) {

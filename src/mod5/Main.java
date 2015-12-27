@@ -1,4 +1,4 @@
-package com.ss.mod5;
+package mod5;
 
 import java.util.Arrays;
 
