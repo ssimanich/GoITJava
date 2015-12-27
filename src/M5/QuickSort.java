@@ -1,4 +1,4 @@
-package mod5;
+package M5;
 
 public class QuickSort {
     public static int[] sort(int mass[], int firstCell, int lastCell) {

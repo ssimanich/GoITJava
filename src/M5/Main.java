@@ -1,4 +1,4 @@
-package mod5;
+package M5;
 
 import java.util.Arrays;
 
