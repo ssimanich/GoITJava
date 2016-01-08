@@ -1,25 +1,17 @@
 package M6.DZ1;
 
 public class Directory {
-    File AudioFile;
-    File TextFile;
-    File ImageFile;
 
-    try{ //my code
-        throws new IllegalStateException(AudioFile);}
+    public static void main(String[] args)
+    {   File AudioFile = new AudioFile();
+        File ImageFile = new ImageFile();
+        File TextFile = new TextFile();
+    try{
+        TextFile.read();
+        AudioFile.read();
+        ImageFile.read();
+        System.out.print("File ok");}
     catch(IllegalStateException e){
-        System.out.print("No this file" +e);}
+        System.err.print("No this file");}
+    }}
 
-    try{ //my code
-        throws new IllegalStateException(TextFile);
-    }
-    catch(IllegalStateException e1){
-        System.out.print("No this file" +e1);}
-
-    try{ //my code
-        throws new IllegalStateException(ImageFile);
-    }
-    catch(IllegalStateException e2){
-        System.out.print("No this file" +e2);}
-
-}
