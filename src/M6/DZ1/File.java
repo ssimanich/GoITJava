@@ -1,7 +1,7 @@
 package M6.DZ1;
 
 public abstract class File{
-    public void state() {
+    public void MyFileException() {
         try {
             throw new IllegalStateException();}
         catch(IllegalStateException e ){}}

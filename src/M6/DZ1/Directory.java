@@ -5,12 +5,12 @@ File AudioFile;
 File ImageFile;
 File TextFile;
 
-public void ss() throws Exception {
+public void MyException(){
         try {   AudioFile.read();
                 ImageFile.read();
-                TextFile.read();
-                throw new IllegalArgumentException();
-        } catch (IllegalArgumentException e) {
+                TextFile.read();}
+        catch (IllegalArgumentException e) {
+                System.out.println(e);
         }
 }}
 
