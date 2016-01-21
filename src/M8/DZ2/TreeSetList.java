@@ -2,7 +2,7 @@ package M8.DZ2;
 
 import java.util.TreeSet;
 
-class TreeSetList {
+class TreeSetList{
     public static void main(String[] args) {
         TreeSet<Comp> list = new TreeSet<Comp>();
         list.add(new Comp("Rosebush"));

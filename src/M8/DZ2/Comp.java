@@ -1,6 +1,6 @@
 package M8.DZ2;
 
-class Comp implements Comparable {
+class Comp implements Comparable{
     String str;
     Comp(String str) {
         this.str = str;
