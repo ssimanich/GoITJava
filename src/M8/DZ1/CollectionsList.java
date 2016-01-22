@@ -2,7 +2,7 @@ package M8.DZ1;
 
 import java.util.ArrayList;
 
-public class CollectionsList{
+public class CollectionsList {
     public static void main(String[] args) {
         ArrayList<String> flowersmass = new ArrayList<String>();
         String[] flowersMass = { "Flower", "Tultip", "Aster", "Bouquet", "Chamomile", "Rose", "Rosebush"};
