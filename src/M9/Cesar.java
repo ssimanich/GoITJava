@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Cesar {
     public static void main(String[] args){
         String message =  "Flower, Tultip, Aster, Bouquet, Chamomile, Rose, Rosebush";
-        System.out.println ("Текстовое представление коллекци обьектов из ДЗ из Модуля 3: ООП в Java:\n"+message+"\n");
-        System.out.print("Введите ключ, для шифрования методом Цезаря:");
+        System.out.println ("РўРµРєСЃС‚РѕРІРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РєРѕР»Р»РµРєС†Рё РѕР±СЊРµРєС‚РѕРІ РёР· Р”Р— РёР· РњРѕРґСѓР»СЏ 3: РћРћРџ РІ Java:\n"+message+"\n");
+        System.out.print("Р’РІРµРґРёС‚Рµ РєР»СЋС‡, РґР»СЏ С€РёС„СЂРѕРІР°РЅРёСЏ РјРµС‚РѕРґРѕРј Р¦РµР·Р°СЂСЏ:");
         Scanner scanner = new Scanner (System.in);
         final int pitch= (Integer.parseInt (scanner.next()));
         StringBuilder encryption = new StringBuilder();
@@ -34,10 +34,10 @@ public class Cesar {
                 decryption.append(i);
             }
         }
-        System.out.println ("\n"+"Зашифрованное текстовое представление коллекци обьектов из " +
-                " из Модуля 3: ООП в Java:\n"+encryption+"\n");
-        System.out.println ("Расшифрованое текстовое представление коллекци обьектов из " +
-                " из Модуля 3: ООП в Java:\n"+decryption+"\n");
-        System.out.println("Конец выполнения программы");
+        System.out.println ("\n"+"Р—Р°С€РёС„СЂРѕРІР°РЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РєРѕР»Р»РµРєС†Рё РѕР±СЊРµРєС‚РѕРІ РёР· " +
+                " РёР· РњРѕРґСѓР»СЏ 3: РћРћРџ РІ Java:\n"+encryption+"\n");
+        System.out.println ("Р Р°СЃС€РёС„СЂРѕРІР°РЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РєРѕР»Р»РµРєС†Рё РѕР±СЊРµРєС‚РѕРІ РёР· " +
+                " РёР· РњРѕРґСѓР»СЏ 3: РћРћРџ РІ Java:\n"+decryption+"\n");
+        System.out.println("РљРѕРЅРµС† РІС‹РїРѕР»РЅРµРЅРёСЏ РїСЂРѕРіСЂР°РјРјС‹");
     }
 }
