@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Cesar{
     public static void main(String[] args){
         String message = "Flower, Tultip, Aster, Bouquet, Chamomile, Rose, Rosebush";
-        System.out.print("Текстовое представление коллекци обьектов из ДЗ из Модуля 3: ООП в Java:\n"+message+"\n");
-        System.out.print("Введите ключ, для шифрования методом Цезаря:");
+        System.out.printf ("Текстовое представление коллекци обьектов из ДЗ из Модуля 3: ООП в Java:\n"+message+"\n");
+        System.out.print("Введите ключ, для шифрования методом Цезаря:\t");
         Scanner scanner = new Scanner (System.in);
         final int pitch= (Integer.parseInt (scanner.next()));
         StringBuilder encryption = new StringBuilder();
@@ -38,6 +38,6 @@ public class Cesar{
                 " из Модуля 3: ООП в Java:\n"+encryption+"\n");
         System.out.print("\n"+"Расшифрованое текстовое представление коллекци обьектов из " +
                 " из Модуля 3: ООП в Java:\n"+decryption+"\n");
-        System.out.print("\n"+"Конец выполнения программы");
+        System.out.print("\n"+"Конец выполнения программы!");
     }
 }
