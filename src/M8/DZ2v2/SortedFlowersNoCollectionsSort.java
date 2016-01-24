@@ -1,7 +1,7 @@
 package M8.DZ2v2;
 
 import java.util.*;
-public class SortedFlowersNoCollectionsSort {
+public class SortedFlowersNoCollectionsSort{
 
     public static void main(String[] args) {
         TreeSet<String> flowersmass = new TreeSet<String>();

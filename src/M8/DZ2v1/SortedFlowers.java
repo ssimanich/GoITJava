@@ -2,7 +2,7 @@ package M8.DZ2v1;
 
 import java.util.*;
 
-public class SortedFlowers{
+public class SortedFlowers {
     public static void main(String[] args) {
         ArrayList<String> flowersmass = new ArrayList<String>();
         String[] flowersMass = { "Flower", "Tultip", "Aster", "Bouquet", "Chamomile", "Rose", "Rosebush"};
