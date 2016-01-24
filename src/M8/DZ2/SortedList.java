@@ -1,4 +1,4 @@
-package M8.DZ;
+package M8.DZ2;
 
 import java.util.TreeSet;
 

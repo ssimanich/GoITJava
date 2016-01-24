@@ -1,4 +1,4 @@
-package M8.DZ;
+package M8.DZ2;
 class Comp implements Comparable{
     String str;
     Comp(String str) {
