@@ -2,7 +2,7 @@ package M9;
 
 import java.util.Scanner;
 
-public class Cesar{
+public class Cesar {
     public static void main(String[] args){
         String message = "Flower, Tultip, Aster, Bouquet, Chamomile, Rose, Rosebush";
         System.out.printf ("Текстовое представление коллекци обьектов из ДЗ из Модуля 3: ООП в Java:\n"+message+"\n");
