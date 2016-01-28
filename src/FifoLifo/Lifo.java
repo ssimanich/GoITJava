@@ -1,8 +1,8 @@
 package FifoLifo;
 
-public class Lifo {
+public class Lifo{
     String[] arr;
-    public Lifo(String[] arr){
+    public Lifo(String[] arr) {
         this.arr = arr;
         }
 //------------------------------------------------Вывод данных пользователю---------------------------------------------

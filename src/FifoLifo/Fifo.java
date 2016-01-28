@@ -2,7 +2,7 @@ package FifoLifo;
 
 public class Fifo {
     String[] arr;
-    public Fifo(String[] arr){
+    public Fifo(String[] arr) {
         this.arr = arr;
     }
 //------------------------------------------------Вывод данных пользователю---------------------------------------------
@@ -34,13 +34,10 @@ public class Fifo {
     }
 //------------------------------Возвращает элемент, находящийся в голове очереди, не удаляя его-------------------------
     public String front(){
-        String firstElement = null;
-        for (int i=0;i<arr.length; i++){
-            if (arr[i] != null) {
-                firstElement = arr[i];
-                break;
+        String firstElement=null;
+            if (arr[0] != null){
+                firstElement = arr[0];
             }
-        }
         return firstElement;
     }
 //------------------------------Добавление элемента в массив и расширяет массив при переполнении------------------------
