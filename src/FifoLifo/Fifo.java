@@ -34,11 +34,8 @@ public class Fifo {
     }
 //------------------------------Возвращает элемент, находящийся в голове очереди, не удаляя его-------------------------
     public String front(){
-        String firstElement=null;
-            if (arr[0] != null){
-                firstElement = arr[0];
-            }
-        return firstElement;
+        if(arr[0]==null) System.out.println("Массив пуст");
+        return arr[0];
     }
 //------------------------------Добавление элемента в массив и расширяет массив при переполнении------------------------
     public void push(String element){
